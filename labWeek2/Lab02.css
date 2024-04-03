@@ -1,0 +1,123 @@
+/* ---UNIVERSAL SELECTOR--- */
+/* OPTIONAL ↓ REMOVE COMMENTS TO SEE RED BORDER:*/
+
+* {
+    border: 1px solid red;
+  }
+  
+  /* ---ELEMENT SELECTORS--- */
+  
+  html {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(180deg, #84daf5, #89ffff, #affffa, #ffffff);
+  }
+  body {margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  title{filter: drop-shadow(2px 2px 1px #0f6a9e);}
+  
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    margin: 4rem auto 1rem auto;
+    text-align: center;
+  }
+  p,
+  li {font-size: 20px;
+  }
+  ol {
+    padding: 20px;
+  }
+  
+  ol li {
+    padding: 10px 0;
+  }
+  img {margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 4px rgb(0,0,0,0.5);
+  }
+  figcaption {display: flex;
+    flex-wrap: wrap;
+    color:rgb(0,58,66);
+    text-align: center;
+    font-weight: bold;
+  }
+  footer {text-align: center;
+    margin: 2rem 0 2rem 0;
+   
+  }
+  
+  /* ---CUSTOM CLASS NAME SELECTORS--- */
+  
+  .banner-div {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+  }
+  #banner-long {
+    max-width: 100%;
+    height: auto;
+  }
+  #banner-short {display: none;
+    width: 230px;
+  }
+  .img-div { justify-content:space-around ;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tips-div {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+  }
+  .top-places-div {background-color: rgb(0, 58, 66);
+    border-radius: 1rem;
+    max-width: 800px;
+    margin: 5rem auto;
+    color: rgb(253, 197, 132);
+    padding: 1rem 2rem;
+  }
+  .top-places-div h2 {
+    text-align: center;
+    margin: 1rem auto;
+    font-weight: lighter;
+  }
+  
+  /* ----- MEDIA QUERIES for RESPONSIVE DESIGN ----- */
+  
+  @media only screen and (max-width: 1500px) {
+    .img-div img {
+      width: 420px;
+    }
+  }
+  
+  @media only screen and (max-width: 1100px) {
+    .tips-div {justify-content: center;
+        flex-wrap: wrap;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    body {
+      margin: 1rem;
+    }
+    p,
+    li {
+      font-size: 16px;
+    }
+    .img-div img {
+      width: 230px;
+    }
+    .tips-div img {
+      width: 230px;
+    }
+    #banner-long {display: none;
+    }
+    #banner-short {display: block;
+    }
+  }
+  /* ------------------------- */

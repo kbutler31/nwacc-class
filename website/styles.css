@@ -8,8 +8,9 @@ html{
     background-color: chocolate;
 }
 body{margin: 1rem,5rem;}
-h1{
-    text-align: left;padding: 1rem;
+h1{ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    text-align: center;padding: 1rem;
 }
 h2{font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -22,8 +23,6 @@ h3{font-family: Georgia, 'Times New Roman', Times, serif;
 p{
     padding: 2rem;
 }
-.banner-div{padding: 0.5em;
-}
 footer {text-align: center;
     margin: 2rem 0 2rem 0;}
 .table{padding: .5rem;
@@ -34,3 +33,6 @@ tr,td{padding-left: 0.2em;
 text-align: center;}
 img{border-radius: 1rem;}
 form{align-content: center;}
+.title{
+    text-align: left;padding: 1rem;
+}
